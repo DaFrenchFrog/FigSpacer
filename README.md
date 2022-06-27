@@ -1,6 +1,6 @@
 # Figsvelte
 
-A boilerplate for creating Figma plugins using Svelte.
+This plugin uses FigSvelte, a boilerplate for creating Figma plugins using Svelte.
 
 This starter project has everything you need to start developing a Figma plugin usign Svelte. Your JS, CSS, SVG and image assets can be bundled on build. The package will take care of compiling your typescript + app on save during development, and also minify on build.
 
@@ -71,4 +71,5 @@ import SvgName from './image.svg';
 _For more info on using the Icon component system with SVGs from [Figma Plugin DS Svelte](https://github.com/thomas-lowry/figma-plugin-ds-svelte), refer to the repo._
 
 _For info about Figma API visit [Figma API Overview](https://www.figma.com/plugin-docs/api/api-overview/)_
+
 # FigSpacer
