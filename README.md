@@ -1,3 +1,19 @@
+I did this plugin for my own use so it's given "as is" ! Don't hesitate to improve I will do my best to upadte the repo asap !
+
+# How to install on Figma
+
+- Download the .zip file [here](https://github.com/DaFrenchFrog/FigSpacer/blob/main/public/plugin%20spacer.zip) and uncompress it in a temp folder.
+- In Figma go to Plugins -> Development -> Import plugin from manifest...
+- Select the manifest.json file
+- You're all set ! To show the window go to Plugins -> Development -> DaFrenchFrog
+
+# Known issues
+
+- The plugin only look for every component with "⭥" or "⭤" in its name, and switch the correct opactity according to the checkbox state. So depending on the last state of the plugin (or the last state in the design), you will click the checkbox and nothing moves. You will have to click twice to see the changes
+- Also for slow computer the changes might take time if you have many components in the design. I had a Mid-2014 Macbook Pro and things were quite slow but with a M1 Macbook things are ok for my use...
+
+
+
 # Figsvelte
 
 This plugin uses FigSvelte, a boilerplate for creating Figma plugins using Svelte.
